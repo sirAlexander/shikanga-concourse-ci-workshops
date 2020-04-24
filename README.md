@@ -1,7 +1,7 @@
 # shikanga-concourse-workshops
 Concourse-CI Related Workshops
 
-### Quick Start
+## Quick Start
 Concourse is distributed as a single concourse binary, making it easy to run just about anywhere, especially with Docker.
 
 ```
@@ -20,6 +20,11 @@ Once downloaded, copy the fly binary into your path ($PATH), such as `/usr/local
 sudo mkdir -p /usr/local/bin
 sudo mv ~/Downloads/fly /usr/local/bin
 sudo chmod 0755 /usr/local/bin/fly
+```
+
+Test your fly CLI installation by displaying the version installed i.e.
+```
+$ fly -v
 ```
 
 Target your local Concourse as the `test` user:
