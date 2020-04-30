@@ -33,4 +33,5 @@ Target your local Concourse as the `test` user:
 $ fly -t tutorial login -c http://localhost:8080 -u test -p test
 ```
 
-Once set up, the tutorials in the following website should get you familiar with concourse-ci [concoursetutorial.com](https://concoursetutorial.com)
+Once set up, the tutorials on the following website should get you familiar with concourse-ci [concoursetutorial.com](https://concoursetutorial.com)
+
